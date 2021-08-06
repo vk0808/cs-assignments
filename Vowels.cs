@@ -10,9 +10,9 @@ namespace Day5Problems
         {
             Console.WriteLine("Program to check vowel or consonant\n");
             Console.WriteLine("Enter an alphabet");
-            char ch = char.Parse(Console.ReadLine());
+            string str = Console.ReadLine().ToLower();
 
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            if (str == "a" || str == "e" || str == "i" || str == "o" || str == "u")
             {
                 Console.WriteLine("It's an Vowel");
             }

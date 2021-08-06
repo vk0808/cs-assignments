@@ -8,7 +8,7 @@ namespace Day5Problems
         static void Main(string[] args)
         {
             // Below are the programs in order
-            Coin.Flip();
+            //Coin.Flip();
             //Year.FindLeapYear();
             //Power.FindPower();
             //Harmonic.FindHarmonic();
@@ -16,7 +16,7 @@ namespace Day5Problems
             //Quotient.FindQuoRem();
             //Swap.SwapNumbers();
             //OddEven.FindOddEven();
-            //Vowels.FindVowels();
+            Vowels.FindVowels();
             //Large.FindLarge
         }
     }
